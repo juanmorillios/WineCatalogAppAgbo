@@ -21,6 +21,7 @@
 		B94ADEFC18D51B8A00B05BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94ADEDE18D51B8A00B05BC1 /* UIKit.framework */; };
 		B94ADF0418D51B8A00B05BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94ADF0218D51B8A00B05BC1 /* InfoPlist.strings */; };
 		B94ADF0618D51B8A00B05BC1 /* WineCatalogAppAgboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADF0518D51B8A00B05BC1 /* WineCatalogAppAgboTests.m */; };
+		B94ADF1118D51D2000B05BC1 /* JMMWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADF1018D51D2000B05BC1 /* JMMWineModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B94ADF0118D51B8A00B05BC1 /* WineCatalogAppAgboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WineCatalogAppAgboTests-Info.plist"; sourceTree = "<group>"; };
 		B94ADF0318D51B8A00B05BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B94ADF0518D51B8A00B05BC1 /* WineCatalogAppAgboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineCatalogAppAgboTests.m; sourceTree = "<group>"; };
+		B94ADF0F18D51D2000B05BC1 /* JMMWineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMWineModel.h; sourceTree = "<group>"; };
+		B94ADF1018D51D2000B05BC1 /* JMMWineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMWineModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		B94ADECE18D51B8A00B05BC1 = {
 			isa = PBXGroup;
 			children = (
+				B94ADF0F18D51D2000B05BC1 /* JMMWineModel.h */,
+				B94ADF1018D51D2000B05BC1 /* JMMWineModel.m */,
 				B94ADEE018D51B8A00B05BC1 /* WineCatalogAppAgbo */,
 				B94ADEFF18D51B8A00B05BC1 /* WineCatalogAppAgboTests */,
 				B94ADED918D51B8A00B05BC1 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B94ADEE718D51B8A00B05BC1 /* main.m in Sources */,
+				B94ADF1118D51D2000B05BC1 /* JMMWineModel.m in Sources */,
 				B94ADEEB18D51B8A00B05BC1 /* JMMAppDelegate.m in Sources */,
 				B94ADEF118D51B8A00B05BC1 /* JMMViewController.m in Sources */,
 			);
