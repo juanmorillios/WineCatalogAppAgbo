@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JMMWineModel.h"
 
 @interface JMMWineViewController : UIViewController
 
