@@ -85,8 +85,7 @@
 		B94ADECE18D51B8A00B05BC1 = {
 			isa = PBXGroup;
 			children = (
-				B94ADF0F18D51D2000B05BC1 /* JMMWineModel.h */,
-				B94ADF1018D51D2000B05BC1 /* JMMWineModel.m */,
+				B94ADF1218D51D6900B05BC1 /* WineModel */,
 				B94ADEE018D51B8A00B05BC1 /* WineCatalogAppAgbo */,
 				B94ADEFF18D51B8A00B05BC1 /* WineCatalogAppAgboTests */,
 				B94ADED918D51B8A00B05BC1 /* Frameworks */,
@@ -155,6 +154,15 @@
 				B94ADF0218D51B8A00B05BC1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B94ADF1218D51D6900B05BC1 /* WineModel */ = {
+			isa = PBXGroup;
+			children = (
+				B94ADF0F18D51D2000B05BC1 /* JMMWineModel.h */,
+				B94ADF1018D51D2000B05BC1 /* JMMWineModel.m */,
+			);
+			name = WineModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
