@@ -13,7 +13,6 @@
 		B94ADEE518D51B8A00B05BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94ADEE318D51B8A00B05BC1 /* InfoPlist.strings */; };
 		B94ADEE718D51B8A00B05BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADEE618D51B8A00B05BC1 /* main.m */; };
 		B94ADEEB18D51B8A00B05BC1 /* JMMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADEEA18D51B8A00B05BC1 /* JMMAppDelegate.m */; };
-		B94ADEEE18D51B8A00B05BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94ADEEC18D51B8A00B05BC1 /* Main.storyboard */; };
 		B94ADEF118D51B8A00B05BC1 /* JMMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADEF018D51B8A00B05BC1 /* JMMViewController.m */; };
 		B94ADEF318D51B8A00B05BC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94ADEF218D51B8A00B05BC1 /* Images.xcassets */; };
 		B94ADEFA18D51B8A00B05BC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94ADEF918D51B8A00B05BC1 /* XCTest.framework */; };
@@ -24,6 +23,12 @@
 		B94ADF1118D51D2000B05BC1 /* JMMWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADF1018D51D2000B05BC1 /* JMMWineModel.m */; };
 		B94ADF1618D5258600B05BC1 /* JMMWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADF1418D5258600B05BC1 /* JMMWineViewController.m */; };
 		B94ADF1718D5258600B05BC1 /* JMMWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94ADF1518D5258600B05BC1 /* JMMWineViewController.xib */; };
+		B9802E9D18D5CF2500D815AA /* JMMWineWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9802E9B18D5CF2500D815AA /* JMMWineWebViewController.m */; };
+		B9802E9E18D5CF2500D815AA /* JMMWineWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9802E9C18D5CF2500D815AA /* JMMWineWebViewController.xib */; };
+		B9802EA318D5D31300D815AA /* comtesDeChampagne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9802E9F18D5D31300D815AA /* comtesDeChampagne.jpg */; };
+		B9802EA418D5D31300D815AA /* zarate.gif in Resources */ = {isa = PBXBuildFile; fileRef = B9802EA018D5D31300D815AA /* zarate.gif */; };
+		B9802EA518D5D31300D815AA /* bembibre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9802EA118D5D31300D815AA /* bembibre.jpg */; };
+		B9802EA618D5D31300D815AA /* splitView_score_glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9802EA218D5D31300D815AA /* splitView_score_glass@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +52,6 @@
 		B94ADEE818D51B8A00B05BC1 /* WineCatalogAppAgbo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WineCatalogAppAgbo-Prefix.pch"; sourceTree = "<group>"; };
 		B94ADEE918D51B8A00B05BC1 /* JMMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMMAppDelegate.h; sourceTree = "<group>"; };
 		B94ADEEA18D51B8A00B05BC1 /* JMMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMMAppDelegate.m; sourceTree = "<group>"; };
-		B94ADEED18D51B8A00B05BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B94ADEEF18D51B8A00B05BC1 /* JMMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMMViewController.h; sourceTree = "<group>"; };
 		B94ADEF018D51B8A00B05BC1 /* JMMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMMViewController.m; sourceTree = "<group>"; };
 		B94ADEF218D51B8A00B05BC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -61,6 +65,13 @@
 		B94ADF1318D5258600B05BC1 /* JMMWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMWineViewController.h; sourceTree = "<group>"; };
 		B94ADF1418D5258600B05BC1 /* JMMWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMWineViewController.m; sourceTree = "<group>"; };
 		B94ADF1518D5258600B05BC1 /* JMMWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMMWineViewController.xib; sourceTree = "<group>"; };
+		B9802E9A18D5CF2500D815AA /* JMMWineWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMWineWebViewController.h; sourceTree = "<group>"; };
+		B9802E9B18D5CF2500D815AA /* JMMWineWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMWineWebViewController.m; sourceTree = "<group>"; };
+		B9802E9C18D5CF2500D815AA /* JMMWineWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMMWineWebViewController.xib; sourceTree = "<group>"; };
+		B9802E9F18D5D31300D815AA /* comtesDeChampagne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comtesDeChampagne.jpg; sourceTree = "<group>"; };
+		B9802EA018D5D31300D815AA /* zarate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = zarate.gif; sourceTree = "<group>"; };
+		B9802EA118D5D31300D815AA /* bembibre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bembibre.jpg; sourceTree = "<group>"; };
+		B9802EA218D5D31300D815AA /* splitView_score_glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splitView_score_glass@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +135,13 @@
 			children = (
 				B94ADEE918D51B8A00B05BC1 /* JMMAppDelegate.h */,
 				B94ADEEA18D51B8A00B05BC1 /* JMMAppDelegate.m */,
-				B94ADEEC18D51B8A00B05BC1 /* Main.storyboard */,
 				B94ADEEF18D51B8A00B05BC1 /* JMMViewController.h */,
 				B94ADEF018D51B8A00B05BC1 /* JMMViewController.m */,
 				B94ADEF218D51B8A00B05BC1 /* Images.xcassets */,
+				B9802E9F18D5D31300D815AA /* comtesDeChampagne.jpg */,
+				B9802EA018D5D31300D815AA /* zarate.gif */,
+				B9802EA118D5D31300D815AA /* bembibre.jpg */,
+				B9802EA218D5D31300D815AA /* splitView_score_glass@2x.png */,
 				B94ADEE118D51B8A00B05BC1 /* Supporting Files */,
 			);
 			path = WineCatalogAppAgbo;
@@ -174,6 +188,9 @@
 		B94ADF1818D5258B00B05BC1 /* WineController */ = {
 			isa = PBXGroup;
 			children = (
+				B9802E9A18D5CF2500D815AA /* JMMWineWebViewController.h */,
+				B9802E9B18D5CF2500D815AA /* JMMWineWebViewController.m */,
+				B9802E9C18D5CF2500D815AA /* JMMWineWebViewController.xib */,
 				B94ADF1318D5258600B05BC1 /* JMMWineViewController.h */,
 				B94ADF1418D5258600B05BC1 /* JMMWineViewController.m */,
 				B94ADF1518D5258600B05BC1 /* JMMWineViewController.xib */,
@@ -258,10 +275,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9802EA318D5D31300D815AA /* comtesDeChampagne.jpg in Resources */,
 				B94ADF1718D5258600B05BC1 /* JMMWineViewController.xib in Resources */,
+				B9802E9E18D5CF2500D815AA /* JMMWineWebViewController.xib in Resources */,
+				B9802EA518D5D31300D815AA /* bembibre.jpg in Resources */,
 				B94ADEF318D51B8A00B05BC1 /* Images.xcassets in Resources */,
+				B9802EA618D5D31300D815AA /* splitView_score_glass@2x.png in Resources */,
+				B9802EA418D5D31300D815AA /* zarate.gif in Resources */,
 				B94ADEE518D51B8A00B05BC1 /* InfoPlist.strings in Resources */,
-				B94ADEEE18D51B8A00B05BC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B94ADEE718D51B8A00B05BC1 /* main.m in Sources */,
+				B9802E9D18D5CF2500D815AA /* JMMWineWebViewController.m in Sources */,
 				B94ADF1118D51D2000B05BC1 /* JMMWineModel.m in Sources */,
 				B94ADEEB18D51B8A00B05BC1 /* JMMAppDelegate.m in Sources */,
 				B94ADEF118D51B8A00B05BC1 /* JMMViewController.m in Sources */,
@@ -313,14 +335,6 @@
 				B94ADEE418D51B8A00B05BC1 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B94ADEEC18D51B8A00B05BC1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B94ADEED18D51B8A00B05BC1 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		B94ADF0218D51B8A00B05BC1 /* InfoPlist.strings */ = {
@@ -495,6 +509,7 @@
 				B94ADF0B18D51B8B00B05BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B94ADF0C18D51B8B00B05BC1 /* Build configuration list for PBXNativeTarget "WineCatalogAppAgboTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +518,7 @@
 				B94ADF0E18D51B8B00B05BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
