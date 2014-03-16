@@ -22,6 +22,8 @@
 		B94ADF0418D51B8A00B05BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94ADF0218D51B8A00B05BC1 /* InfoPlist.strings */; };
 		B94ADF0618D51B8A00B05BC1 /* WineCatalogAppAgboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADF0518D51B8A00B05BC1 /* WineCatalogAppAgboTests.m */; };
 		B94ADF1118D51D2000B05BC1 /* JMMWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADF1018D51D2000B05BC1 /* JMMWineModel.m */; };
+		B94ADF1618D5258600B05BC1 /* JMMWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ADF1418D5258600B05BC1 /* JMMWineViewController.m */; };
+		B94ADF1718D5258600B05BC1 /* JMMWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94ADF1518D5258600B05BC1 /* JMMWineViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		B94ADF0518D51B8A00B05BC1 /* WineCatalogAppAgboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineCatalogAppAgboTests.m; sourceTree = "<group>"; };
 		B94ADF0F18D51D2000B05BC1 /* JMMWineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMWineModel.h; sourceTree = "<group>"; };
 		B94ADF1018D51D2000B05BC1 /* JMMWineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMWineModel.m; sourceTree = "<group>"; };
+		B94ADF1318D5258600B05BC1 /* JMMWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMWineViewController.h; sourceTree = "<group>"; };
+		B94ADF1418D5258600B05BC1 /* JMMWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMWineViewController.m; sourceTree = "<group>"; };
+		B94ADF1518D5258600B05BC1 /* JMMWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMMWineViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,7 @@
 		B94ADECE18D51B8A00B05BC1 = {
 			isa = PBXGroup;
 			children = (
+				B94ADF1818D5258B00B05BC1 /* WineController */,
 				B94ADF1218D51D6900B05BC1 /* WineModel */,
 				B94ADEE018D51B8A00B05BC1 /* WineCatalogAppAgbo */,
 				B94ADEFF18D51B8A00B05BC1 /* WineCatalogAppAgboTests */,
@@ -165,6 +171,16 @@
 			name = WineModel;
 			sourceTree = "<group>";
 		};
+		B94ADF1818D5258B00B05BC1 /* WineController */ = {
+			isa = PBXGroup;
+			children = (
+				B94ADF1318D5258600B05BC1 /* JMMWineViewController.h */,
+				B94ADF1418D5258600B05BC1 /* JMMWineViewController.m */,
+				B94ADF1518D5258600B05BC1 /* JMMWineViewController.xib */,
+			);
+			name = WineController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94ADF1718D5258600B05BC1 /* JMMWineViewController.xib in Resources */,
 				B94ADEF318D51B8A00B05BC1 /* Images.xcassets in Resources */,
 				B94ADEE518D51B8A00B05BC1 /* InfoPlist.strings in Resources */,
 				B94ADEEE18D51B8A00B05BC1 /* Main.storyboard in Resources */,
@@ -267,6 +284,7 @@
 				B94ADF1118D51D2000B05BC1 /* JMMWineModel.m in Sources */,
 				B94ADEEB18D51B8A00B05BC1 /* JMMAppDelegate.m in Sources */,
 				B94ADEF118D51B8A00B05BC1 /* JMMViewController.m in Sources */,
+				B94ADF1618D5258600B05BC1 /* JMMWineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
