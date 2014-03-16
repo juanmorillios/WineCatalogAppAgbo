@@ -13,6 +13,21 @@
 
 #define NO_RATING -1
 
+
+//Modelo del Vino
+
+@property (strong, nonatomic) NSString *type;
+@property (strong, nonatomic) UIImage *photo;
+@property (strong, nonatomic) NSURL *wineCompanyWeb;
+@property (strong, nonatomic) NSString *notes;
+@property (strong, nonatomic) NSString *origen;
+@property (nonatomic) int rating;
+@property (strong, nonatomic) NSArray *grapes;
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *wineCompanyName;
+
+
+
 //Inicializador designado para el vino.
 
 
@@ -34,23 +49,6 @@
              type: (NSString *) atype
            origen: (NSString *) anOrigen;
 
-
-
-
-
-
-
-//Modelo del Vino
-
-@property (strong, nonatomic) NSString *type;
-@property (strong, nonatomic) UIImage *photo;
-@property (strong, nonatomic) NSURL *wineCompanyWeb;
-@property (strong, nonatomic) NSString *notes;
-@property (strong, nonatomic) NSString *origen;
-@property (nonatomic) int rating;
-@property (strong, nonatomic) NSArray *grapes;
-@property (strong, nonatomic) NSString *name;
-@property (strong, nonatomic) NSString *wineCompanyName;
 
 
 
